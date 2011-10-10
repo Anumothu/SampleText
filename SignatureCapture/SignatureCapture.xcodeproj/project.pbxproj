@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828F2F85141A3AC200CB868D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828F2F84141A3AC200CB868D /* UIKit.framework */; };
+		828F2F87141A3AC300CB868D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828F2F86141A3AC300CB868D /* Foundation.framework */; };
+		828F2F89141A3AC300CB868D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828F2F88141A3AC300CB868D /* CoreGraphics.framework */; };
+		828F2F8F141A3AC300CB868D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 828F2F8D141A3AC300CB868D /* InfoPlist.strings */; };
+		828F2F92141A3AC300CB868D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828F2F91141A3AC300CB868D /* main.m */; };
+		828F2F95141A3AC300CB868D /* SignatureCaptureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828F2F94141A3AC300CB868D /* SignatureCaptureAppDelegate.m */; };
+		828F2F98141A3AC300CB868D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828F2F96141A3AC300CB868D /* MainWindow.xib */; };
+		828F2FA5141A3AF400CB868D /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828F2FA3141A3AF400CB868D /* SignatureViewController.m */; };
+		828F2FA6141A3AF400CB868D /* SignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828F2FA4141A3AF400CB868D /* SignatureViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		828F2F80141A3AC200CB868D /* SignatureCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignatureCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828F2F84141A3AC200CB868D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		828F2F86141A3AC300CB868D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		828F2F88141A3AC300CB868D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		828F2F8C141A3AC300CB868D /* SignatureCapture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SignatureCapture-Info.plist"; sourceTree = "<group>"; };
+		828F2F8E141A3AC300CB868D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		828F2F90141A3AC300CB868D /* SignatureCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignatureCapture-Prefix.pch"; sourceTree = "<group>"; };
+		828F2F91141A3AC300CB868D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		828F2F93141A3AC300CB868D /* SignatureCaptureAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignatureCaptureAppDelegate.h; sourceTree = "<group>"; };
+		828F2F94141A3AC300CB868D /* SignatureCaptureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignatureCaptureAppDelegate.m; sourceTree = "<group>"; };
+		828F2F97141A3AC300CB868D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		828F2FA2141A3AF400CB868D /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		828F2FA3141A3AF400CB868D /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		828F2FA4141A3AF400CB868D /* SignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignatureViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828F2F7D141A3AC200CB868D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828F2F85141A3AC200CB868D /* UIKit.framework in Frameworks */,
+				828F2F87141A3AC300CB868D /* Foundation.framework in Frameworks */,
+				828F2F89141A3AC300CB868D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828F2F75141A3AC000CB868D = {
+			isa = PBXGroup;
+			children = (
+				828F2F8A141A3AC300CB868D /* SignatureCapture */,
+				828F2F83141A3AC200CB868D /* Frameworks */,
+				828F2F81141A3AC200CB868D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828F2F81141A3AC200CB868D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828F2F80141A3AC200CB868D /* SignatureCapture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828F2F83141A3AC200CB868D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828F2F84141A3AC200CB868D /* UIKit.framework */,
+				828F2F86141A3AC300CB868D /* Foundation.framework */,
+				828F2F88141A3AC300CB868D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828F2F8A141A3AC300CB868D /* SignatureCapture */ = {
+			isa = PBXGroup;
+			children = (
+				828F2F93141A3AC300CB868D /* SignatureCaptureAppDelegate.h */,
+				828F2F94141A3AC300CB868D /* SignatureCaptureAppDelegate.m */,
+				828F2F96141A3AC300CB868D /* MainWindow.xib */,
+				828F2F8B141A3AC300CB868D /* Supporting Files */,
+				828F2FA2141A3AF400CB868D /* SignatureViewController.h */,
+				828F2FA3141A3AF400CB868D /* SignatureViewController.m */,
+				828F2FA4141A3AF400CB868D /* SignatureViewController.xib */,
+			);
+			path = SignatureCapture;
+			sourceTree = "<group>";
+		};
+		828F2F8B141A3AC300CB868D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828F2F8C141A3AC300CB868D /* SignatureCapture-Info.plist */,
+				828F2F8D141A3AC300CB868D /* InfoPlist.strings */,
+				828F2F90141A3AC300CB868D /* SignatureCapture-Prefix.pch */,
+				828F2F91141A3AC300CB868D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828F2F7F141A3AC200CB868D /* SignatureCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828F2F9B141A3AC300CB868D /* Build configuration list for PBXNativeTarget "SignatureCapture" */;
+			buildPhases = (
+				828F2F7C141A3AC200CB868D /* Sources */,
+				828F2F7D141A3AC200CB868D /* Frameworks */,
+				828F2F7E141A3AC200CB868D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignatureCapture;
+			productName = SignatureCapture;
+			productReference = 828F2F80141A3AC200CB868D /* SignatureCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828F2F77141A3AC000CB868D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 828F2F7A141A3AC000CB868D /* Build configuration list for PBXProject "SignatureCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 828F2F75141A3AC000CB868D;
+			productRefGroup = 828F2F81141A3AC200CB868D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828F2F7F141A3AC200CB868D /* SignatureCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828F2F7E141A3AC200CB868D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828F2F8F141A3AC300CB868D /* InfoPlist.strings in Resources */,
+				828F2F98141A3AC300CB868D /* MainWindow.xib in Resources */,
+				828F2FA6141A3AF400CB868D /* SignatureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828F2F7C141A3AC200CB868D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828F2F92141A3AC300CB868D /* main.m in Sources */,
+				828F2F95141A3AC300CB868D /* SignatureCaptureAppDelegate.m in Sources */,
+				828F2FA5141A3AF400CB868D /* SignatureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		828F2F8D141A3AC300CB868D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828F2F8E141A3AC300CB868D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		828F2F96141A3AC300CB868D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828F2F97141A3AC300CB868D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828F2F99141A3AC300CB868D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		828F2F9A141A3AC300CB868D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		828F2F9C141A3AC300CB868D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SignatureCapture/SignatureCapture-Prefix.pch";
+				INFOPLIST_FILE = "SignatureCapture/SignatureCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		828F2F9D141A3AC300CB868D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SignatureCapture/SignatureCapture-Prefix.pch";
+				INFOPLIST_FILE = "SignatureCapture/SignatureCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828F2F7A141A3AC000CB868D /* Build configuration list for PBXProject "SignatureCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828F2F99141A3AC300CB868D /* Debug */,
+				828F2F9A141A3AC300CB868D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828F2F9B141A3AC300CB868D /* Build configuration list for PBXNativeTarget "SignatureCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828F2F9C141A3AC300CB868D /* Debug */,
+				828F2F9D141A3AC300CB868D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828F2F77141A3AC000CB868D /* Project object */;
+}
