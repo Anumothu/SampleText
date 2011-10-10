@@ -27,9 +27,9 @@
     return YES;
 }
 
--(void) good
+-(void) goodSelection
 {
-    NSLog(@"Git test");
+    NSLog(@"Enchatment");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
