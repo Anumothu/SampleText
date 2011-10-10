@@ -1574,8 +1574,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>339941390.23415899</real>
-		<string>{30646, 808}</string>
+		<real>339941630.40626103</real>
+		<string>{30221, 809}</string>
 		<integer>0</integer>
 		<dict>
 			<key>$class</key>
@@ -3283,7 +3283,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>339941390.26027298</real>
+		<real>339941630.409715</real>
 		<string>{0, 1635}</string>
 		<string>{676, 0}</string>
 		<string>-good</string>
@@ -4089,7 +4089,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{31, 72}, {1400, 806}}</string>
+		<string>{{33, 72}, {1400, 806}}</string>
 	</array>
 	<key>$top</key>
 	<dict>
