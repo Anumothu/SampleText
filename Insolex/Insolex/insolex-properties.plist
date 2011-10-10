@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alert</key>
+	<dict>
+		<key>101</key>
+		<string>Username and Passward mismatched.</string>
+		<key>102</key>
+		<string>please enter password</string>
+		<key>103</key>
+		<string>please enter username</string>
+		<key>104</key>
+		<string>Please enter all Values</string>
+		<key>105</key>
+		<string>new Password and Re-Enter password are mismatched</string>
+		<key>106</key>
+		<string>Sorry. Invalid Current Password</string>
+		<key>107</key>
+		<string>Sorry. Invalid phone number</string>
+		<key>108</key>
+		<string>Sorry. Invalid email address</string>
+		<key>404</key>
+		<string>Can&apos;t retrive data. try again later</string>
+		<key>500</key>
+		<string>please check your internet connection</string>
+	</dict>
+	<key>Hostname</key>
+	<string>192.168.0.115</string>
+	<key>properties</key>
+	<dict>
+		<key>Key</key>
+		<string>hakunamatata</string>
+		<key>password</key>
+		<string></string>
+		<key>RememberUsername</key>
+		<string>0</string>
+		<key>username</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

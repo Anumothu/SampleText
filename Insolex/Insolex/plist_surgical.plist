@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>surgical</key>
+	<dict>
+		<key>SurgicalAssitant</key>
+		<dict>
+			<key>Specialty</key>
+			<array>
+				<string>Abdominal Surgery</string>
+				<string>Amputation</string>
+				<string>Articular Cartilage Damage</string>
+				<string>Autologous</string>
+				<string>Bariatrics</string>
+				<string>Cardiac Surgery</string>
+				<string>Cardiothoracic Surgery</string>
+				<string>Conductive Keratoplasty</string>
+				<string>Cryoablation</string>
+				<string>Eye Surgery</string>
+				<string>Gastrectomy</string>
+				<string>General Surgery</string>
+				<string>Sacrohysteropexy</string>
+				<string>Neurosurgery</string>
+				<string>Orthognathic Surgery</string>
+				<string>Orthopedic Surgery</string>
+				<string>Pediatric Surgery</string>
+				<string>Plastic Surgery</string>
+				<string>Replantation</string>
+				<string>Surgical Oncology</string>
+				<string>Thoracic Surgery</string>
+				<string>Trauma Surgery</string>
+				<string>Urogynecology</string>
+				<string>Urology</string>
+				<string>Vascular Surgery</string>
+			</array>
+		</dict>
+		<key>SurgicalTechnology</key>
+		<dict>
+			<key>Specialty</key>
+			<array>
+				<string>Cardiothoracic Surgery</string>
+				<string>ENT</string>
+				<string>Eye</string>
+				<string> GU</string>
+				<string>Neuro</string>
+				<string> Ob-Gyn</string>
+				<string>Oral/Maxillofacial</string>
+				<string>Orthopedics</string>
+				<string>Peripheral vascular</string>
+				<string>Plastics</string>
+				<string>Procurement/ Transplant</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

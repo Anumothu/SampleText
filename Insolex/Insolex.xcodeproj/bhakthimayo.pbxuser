@@ -1,0 +1,123 @@
+// !$*UTF8*$!
+{
+	8256B9B6140371DC00333BAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82A2ADD913FE557000E853EF /* FlowLogicController.h */;
+		name = "FlowLogicController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 0;
+	};
+	82A2ADCC13FE552A00E853EF /* Insolex */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Insolex;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	82A2ADD613FE554C00E853EF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	82A2ADD713FE554C00E853EF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	82A2ADD913FE557000E853EF /* FlowLogicController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 390}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 805}";
+		};
+	};
+	82C092F813FD17E100D3F12D /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 82A2ADCC13FE552A00E853EF /* Insolex */;
+		activeTarget = 82C0930013FD17E300D3F12D /* Insolex */;
+		addToTargets = (
+			82C0930013FD17E300D3F12D /* Insolex */,
+		);
+		codeSenseManager = 82A2ADD713FE554C00E853EF /* Code sense */;
+		executables = (
+			82A2ADCC13FE552A00E853EF /* Insolex */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					900,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 336032764;
+			PBXWorkspaceStateSaveDate = 336032764;
+		};
+		perUserProjectItems = {
+			8256B9B6140371DC00333BAB /* PBXTextBookmark */ = 8256B9B6140371DC00333BAB /* PBXTextBookmark */;
+			82EB31771407767800014FC1 /* PBXTextBookmark */ = 82EB31771407767800014FC1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 82A2ADD613FE554C00E853EF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	82C0930013FD17E300D3F12D /* Insolex */ = {
+		activeExec = 0;
+		executables = (
+			82A2ADCC13FE552A00E853EF /* Insolex */,
+		);
+	};
+	82EB31771407767800014FC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82A2ADD913FE557000E853EF /* FlowLogicController.h */;
+		name = "FlowLogicController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InsolexAPI</key>
+	<dict>
+		<key>Error code</key>
+		<string>0</string>
+		<key>Response code</key>
+		<string>1</string>
+		<key>User</key>
+		<dict>
+			<key>devicename</key>
+			<string>iphone4</string>
+			<key>email</key>
+			<string>sein@goam.conm</string>
+			<key>Insitutionname</key>
+			<string>hakunamatata</string>
+			<key>Name</key>
+			<string>sebastin</string>
+			<key>phoneno</key>
+			<string>123456789</string>
+			<key>programname</key>
+			<string>SubmissionTrack</string>
+			<key>Userid</key>
+			<string>user_1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
