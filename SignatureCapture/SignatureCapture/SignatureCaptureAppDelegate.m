@@ -27,6 +27,11 @@
     return YES;
 }
 
+-(void) good
+{
+    NSLog(@"Git test");
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*
