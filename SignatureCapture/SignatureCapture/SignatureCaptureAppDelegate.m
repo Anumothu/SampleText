@@ -32,6 +32,10 @@
     NSLog(@"Enchatment");
 }
 
+-(void) Sebastin
+{
+    NSLog(@"Sebastin");
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*
