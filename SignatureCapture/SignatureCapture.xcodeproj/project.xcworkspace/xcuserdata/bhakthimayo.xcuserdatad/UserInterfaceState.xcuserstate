@@ -332,7 +332,7 @@
 		<string>PrimaryDocumentTimestamp</string>
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>{0, 0}</string>
-		<real>339941916.23101002</real>
+		<real>339941922.49343002</real>
 		<string>{0, 910}</string>
 		<dict>
 			<key>$classes</key>
@@ -1260,7 +1260,7 @@
 			</array>
 		</dict>
 		<string>HideAllIssues</string>
-		<real>339941916.23086601</real>
+		<real>339941929.54332203</real>
 		<string>{0, 1635}</string>
 		<string>{676, 0}</string>
 		<dict>
@@ -3062,7 +3062,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>339941916.26328599</real>
+		<real>339941929.54905701</real>
 		<string>{0, 1635}</string>
 		<string>{676, 0}</string>
 		<string>-good</string>
